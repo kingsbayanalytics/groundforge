@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to the GroundForge API")
+    return {"message": "Welcome to the GroundForge API"}
